@@ -11,7 +11,7 @@
 }
 
 .logo {
-    width: 3rem;
+    width: 2.5rem;
     z-index: 6;
 }
 
@@ -53,8 +53,7 @@
     .nav-links {
         top: 0;
         position: fixed;
-        background: rgba(10, 140, 191, 0.9);
-        background-size: cover;
+        background: #CE7535;
         height: 100vh;
         width: 100%;
         flex-direction: column;
