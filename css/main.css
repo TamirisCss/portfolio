@@ -94,8 +94,8 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -20%);
+            clip-path: circle(100px at 90% -20%);
     -webkit-transition: all 1s ease-out;
     transition: all 1s ease-out;
     pointer-events: none;
@@ -119,8 +119,8 @@ body {
     margin-left: 4rem;
   }
   .nav-links.open {
-    clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -20%);
+            clip-path: circle(1000px at 90% -20%);
     pointer-events: all;
   }
   .nav-links li {
@@ -182,5 +182,19 @@ body {
   letter-spacing: .30rem;
   margin-top: .50rem;
   display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-info {
+    min-width: 70%;
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .banner-info {
+    font-size: 1rem;
+    min-width: 90%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
