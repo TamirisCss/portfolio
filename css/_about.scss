@@ -1,0 +1,30 @@
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    // background: rgba($color: $primary-color, $alpha: 0.2);
+}
+.about-container {
+    width: 90%;
+    // height: 40vh;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $primary-color;
+    padding: 1rem;
+    .img-container {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        .myPic {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+        }
+    }
+    .about-info {
+        padding: 2rem;
+        font-size: 1.2rem;
+    }
+}
