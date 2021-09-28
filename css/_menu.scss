@@ -102,4 +102,12 @@
         opacity: 1;
     }
 }
+@media screen and (max-width: 479px) {
+    .logo {
+        margin-left: 1rem;
+    }
+    .hamburger-menu {
+        margin-right: -2.5rem;
+    }
+}
 
