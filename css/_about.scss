@@ -1,18 +1,21 @@
 .about {
+    background-image: url(../images/bg-keyboard.png);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
-    // background: rgba($color: $primary-color, $alpha: 0.2);
 }
 .about-container {
     width: 90%;
-    // height: 40vh;
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
     border: 2px solid $primary-color;
     padding: 1rem;
+    background: $white;
+    border-radius: .50rem;
     .img-container {
         display: flex;
         justify-content: center;
@@ -26,5 +29,10 @@
     .about-info {
         padding: 2rem;
         font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
     }
 }

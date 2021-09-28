@@ -209,6 +209,9 @@ body {
 }
 
 .about {
+  background-image: url(../images/bg-keyboard.png);
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,6 +235,8 @@ body {
           justify-content: center;
   border: 2px solid #CE7535;
   padding: 1rem;
+  background: white;
+  border-radius: .50rem;
 }
 
 .about-container .img-container {
@@ -253,5 +258,14 @@ body {
 .about-container .about-info {
   padding: 2rem;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */
