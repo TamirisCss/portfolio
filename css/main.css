@@ -266,6 +266,18 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0rem;
   }
+  .about-info {
+    font-size: .80rem;
+    padding: 1rem;
+  }
+  .img-container {
+    padding: 1rem;
+  }
+}
+
+.projects {
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */

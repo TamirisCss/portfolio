@@ -34,5 +34,13 @@
 @media screen and (max-width: 768px) {
     .about-container {
         flex-direction: column;
+        padding: 0rem;
+    }
+    .about-info {
+        font-size: .80rem;
+        padding: 1rem;
+    }
+    .img-container {
+        padding: 1rem;
     }
 }
