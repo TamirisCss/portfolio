@@ -246,6 +246,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
   padding: 2rem;
 }
 
@@ -258,6 +259,7 @@ body {
 .about-container .about-info {
   padding: 2rem;
   font-size: 1.2rem;
+  overflow: scroll;
 }
 
 @media screen and (max-width: 768px) {
@@ -266,14 +268,13 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0rem;
-  }
-  .about-info {
-    font-size: .80rem;
-    padding: 1rem;
   }
   .img-container {
-    padding: 1rem;
+    padding: .50rem;
+  }
+  .about-info {
+    font-size: .70rem;
+    height: 200px;
   }
 }
 

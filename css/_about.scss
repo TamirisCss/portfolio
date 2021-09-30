@@ -19,6 +19,7 @@
     .img-container {
         display: flex;
         justify-content: center;
+        width: 100%;
         padding: 2rem;
         .myPic {
             width: 10rem;
@@ -29,18 +30,18 @@
     .about-info {
         padding: 2rem;
         font-size: 1.2rem;
+        overflow: scroll;
     }
 }
 @media screen and (max-width: 768px) {
     .about-container {
         flex-direction: column;
-        padding: 0rem;
-    }
-    .about-info {
-        font-size: .80rem;
-        padding: 1rem;
     }
     .img-container {
-        padding: 1rem;
+        padding: .50rem;
+    }
+    .about-info {
+        font-size: .70rem;
+        height: 200px;
     }
 }
