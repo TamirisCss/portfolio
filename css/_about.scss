@@ -5,6 +5,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
 }
 .about-container {
     width: 90%;
@@ -45,12 +46,14 @@
 @media screen and (max-width: 768px) {
     .about-container {
         flex-direction: column;
+        padding: .70rem;
     }
     .img-container {
-        padding: .50rem;
+        padding: .70rem;
     }
     .about-info {
         font-size: .70rem;
         height: 250px;
+        padding: .70rem;
     }
 }

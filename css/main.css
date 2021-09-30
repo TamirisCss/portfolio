@@ -101,7 +101,7 @@ body {
     pointer-events: none;
   }
   .nav-links a {
-    font-size: 1.2rem;
+    font-size: 2.1rem;
   }
   .nav-links li:not(:last-child) {
     margin-bottom: 3rem;
@@ -157,7 +157,6 @@ body {
 }
 
 .banner {
-  /* margin-top: 10vh; */
   height: 100vh;
   background-image: url(../images/bg-image.png);
   background-size: cover;
@@ -219,6 +218,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .about-container {
@@ -277,19 +277,20 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: .70rem;
   }
   .img-container {
-    padding: .50rem;
+    padding: .70rem;
   }
   .about-info {
     font-size: .70rem;
     height: 250px;
+    padding: .70rem;
   }
 }
 
 .projects {
   height: 100vh;
-  background-image: url(../images/bg-keyboard.png);
-  background-size: cover;
+  background: #DCDEDF;
 }
 /*# sourceMappingURL=main.css.map */
