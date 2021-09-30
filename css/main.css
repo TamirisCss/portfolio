@@ -209,7 +209,7 @@ body {
 }
 
 .about {
-  background-image: url(../images/bg-keyboard.png);
+  background: #DCDEDF;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -262,6 +262,15 @@ body {
   overflow: scroll;
 }
 
+.about-container .about-info::-webkit-scrollbar {
+  width: 5px;
+}
+
+.about-container .about-info::-webkit-scrollbar-thumb {
+  background: #CE7535;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .about-container {
     -webkit-box-orient: vertical;
@@ -274,11 +283,13 @@ body {
   }
   .about-info {
     font-size: .70rem;
-    height: 200px;
+    height: 250px;
   }
 }
 
 .projects {
   height: 100vh;
+  background-image: url(../images/bg-keyboard.png);
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */

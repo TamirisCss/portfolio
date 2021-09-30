@@ -1,5 +1,5 @@
 .about {
-    background-image: url(../images/bg-keyboard.png);
+    background: $bg-color;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -32,6 +32,15 @@
         font-size: 1.2rem;
         overflow: scroll;
     }
+    .about-info::-webkit-scrollbar {
+        width: 5px;
+    }
+    .about-info::-webkit-scrollbar-thumb {
+        background: $primary-color;
+        border-radius: 10px;
+    }
+    
+    
 }
 @media screen and (max-width: 768px) {
     .about-container {
@@ -42,6 +51,6 @@
     }
     .about-info {
         font-size: .70rem;
-        height: 200px;
+        height: 250px;
     }
 }
