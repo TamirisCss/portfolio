@@ -290,7 +290,36 @@ body {
 }
 
 .projects {
-  height: 100vh;
   background: #DCDEDF;
+  padding: 3rem;
+}
+
+.projects-title {
+  font-size: 2rem;
+  color: #CE7535;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: .30rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.img-project {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */
