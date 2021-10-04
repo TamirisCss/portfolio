@@ -400,4 +400,63 @@ figure:hover figcaption {
   opacity: 1;
   background: rgba(0, 0, 0, 0.7);
 }
+
+.contact {
+  background: #CE7535;
+  padding: 2rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-title {
+  font-size: 2rem;
+  color: black;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: .30rem;
+  padding: 2rem 0rem;
+}
+
+.contact .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  padding: 1rem 0rem;
+}
+
+.fab {
+  color: black;
+  font-size: 2rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.fab:hover {
+  color: white;
+}
+
+footer {
+  background: #CE7535;
+  padding: 1rem 0rem;
+  font-size: .80rem;
+}
+
+footer .footer-container {
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */

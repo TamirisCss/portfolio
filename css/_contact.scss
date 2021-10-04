@@ -1,0 +1,40 @@
+.contact {
+    background: $primary-color;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contact-title {
+        font-size: 2rem;
+        color: $black;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: .30rem;
+        padding: 2rem 0rem;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        padding: 1rem 0rem;
+    }
+}
+.fab {
+    color: $black;
+    font-size: 2rem;
+    transition: all .5s ease;
+    &:hover {
+        color: $white;
+    }
+}
+
+footer {
+    background: $primary-color;
+    padding: 1rem 0rem;
+    font-size: .80rem;
+    .footer-container {
+        text-align: center;
+    }
+
+}
