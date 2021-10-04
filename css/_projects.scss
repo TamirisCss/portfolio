@@ -16,10 +16,17 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
+    div {
+        width: 300px;
+        height: 300px;
+        box-shadow: 5px 10px 10px rgba($black, 0.2);
+        border-radius: .50rem;
+    }
 }
 figure {
     overflow: hidden;
     position: relative;
+    border-radius: .50rem;
 }
 figcaption {
     position: absolute;
@@ -59,6 +66,7 @@ figcaption {
     height: 300px;
     object-fit: cover;
     transition: all .5s linear;
+    border-radius: .50rem;
 }
 figure:hover .img-project {
     transform: scale(1.2);
