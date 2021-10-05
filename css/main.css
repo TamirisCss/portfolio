@@ -168,6 +168,7 @@ body {
   position: absolute;
   background: #fff;
   border-radius: .50rem;
+  width: 50%;
   top: 20%;
   right: 55%;
   -webkit-transform: translate(50%, 50%);
