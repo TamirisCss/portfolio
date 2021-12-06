@@ -267,6 +267,8 @@ body {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about-container .about-info {
