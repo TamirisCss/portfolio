@@ -159,6 +159,7 @@ body {
 .banner {
   height: 100vh;
   position: relative;
+  background-color: #DCDEDF;
 }
 
 .banner-video {
@@ -171,13 +172,17 @@ body {
   left: 0;
 }
 
+.banner-video-mobile {
+  display: none;
+}
+
 .banner-info {
   position: absolute;
   background: #CE7535;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  border-radius: .50rem;
+  border-radius: 0.5rem;
   width: 50%;
   top: 20%;
   right: 50%;
@@ -196,23 +201,48 @@ body {
 .banner-info h1 {
   font-weight: normal;
   color: white;
-  letter-spacing: .30rem;
-  margin-top: .50rem;
+  letter-spacing: 0.3rem;
+  margin-top: 0.5rem;
   display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
-  .banner-info {
-    min-width: 70%;
-    top: 10%;
-    right: 50%;
+  .banner {
+    height: 50vh;
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 678px) {
+  .banner {
+    height: 60vh;
+  }
   .banner-info {
-    font-size: 1rem;
-    min-width: 90%;
+    width: 70%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .banner {
+    height: 100vh;
+  }
+  .banner-video {
+    display: none;
+  }
+  .banner-video-mobile {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+  .banner-info {
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .banner-info {
+    top: 10%;
+    width: 80%;
   }
 }
 
